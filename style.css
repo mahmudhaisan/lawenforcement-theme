@@ -1,0 +1,33 @@
+/*
+Theme Name: Law Enforecement
+Theme URI: https://github.com/mahmudhaisan
+Author: the WordPress team
+Author URI: https://github.com/mahmudhaisan
+Description: Lawenforecement theme
+Requires at least: 5.9
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lawenforce
+*/
+
+img {
+    max-width: 100%;
+}
+
+
+/* Menu Fix */
+
+.main-menu {
+    justify-content: flex-end;
+}
+
+.card-body p {
+    color: #fff;
+}
+
+.wp-block-page-list,
+.wp-block-categories {
+    padding: 0;
+    list-style: none;
+}
